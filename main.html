@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+            <script>
+                function makeRandom(number) {
+                    return Math.floor(math.random() * Math.floor(number));
+                };
+
+                alert("The number is: " + makeRandom(4));
+            </script>
+</head>
+<body>
+     <!-- navigation div -->
+    <div>
+        <nav>
+            <a href="main.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="classes.html">Classes</a>
+
+            <div class="burger">
+                <div class="layer1"></div>
+                <div class="layer2"></div>
+                <div class="layer3"></div>
+            </div>
+        </nav>
+
+        <!-- float the picture to the left with a div -->
+        <div class="professor-img">
+            <img src="1.png" alt="" class="prof-image">
+        </div>
+
+        <!-- float the story to the right using a div -->
+        <div class="story" style="float: left;">
+            <p>
+                I am a professor of Mathematics at Northern Kentucky University. I've worked there for nine years.I am a professor of Mathematics
+            </p> 
+            
+            <dl>
+                <dt>I enjoy the following outdoor activies:</dt>
+                
+                    <ul>
+                        <dd><li>Mathematics</li></dd>
+                        <dd><li>Football</li></dd>
+                        <dd><li>Soccer</li></dd>
+                        <dd><li>Teaching</li></dd>
+                    </ul>
+            </dl>
+        </div>
+
+
+
+        <script src="app.js">
+
+        </script>
+
+    </div>
+</body>
+</html>

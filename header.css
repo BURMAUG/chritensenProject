@@ -1,0 +1,163 @@
+header{
+    background-color: #FFFFFF;
+}
+
+nav{
+    /* background-color: #DA3E52; */
+    background-size: 50% auto;
+    /* background-color: #DA3E52; */
+    background-color: #FFFFFF;
+    /* background-color: #A93F55; */
+    /* background-color: #F2545B; */
+    border-radius: 4px;
+    text-align: center;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+h1,h2{
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+div.anchor{ 
+    font-weight: bold;
+    padding: 15px 15px 15px 15px;
+}
+div.nav{
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+#classToTake{
+   display: block; 
+   border-style: dotted;
+   border-color:#0D0C1D;
+   overflow: auto;
+   border-radius: 10px;
+   padding: 10px;
+   width: 10px;
+   height: 20px;
+}
+
+a:hover{
+   text-align: center;
+   border-style: solid;
+   background-color: #DA3E52;
+   /*border-color: midnightblue;*/
+   border-radius: 10px;
+   padding: 10px;
+   width: 100px;
+   height: 20;
+}
+
+  body{
+    /* ackground-color: #FEFEEE; */
+    background-color: #FFFFFF;
+    /* the above color is a great background color */
+}  
+.trial{
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+}
+
+
+div.card{
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.float_left{
+    float: left;
+    border: 5px;
+    background-color: lightcyan;
+}
+
+.float_right{
+    float: right;
+    background-color: #DA3E52;
+}
+
+
+/* 
+
+                <a href="" id="cOne">Calculus I</a> <br>
+                    <a href=""> Calculus II</a>
+                    <a href=""> Linear Algebra </a><br>
+                    <a href=""> Precalculus </a>
+                    <a href=""> Elementary theory of Numbers </a>
+                    <a href=""> Math 229</a><br>
+                    <a href=""> Cryptology</a>
+                    <a href=""> Discrete Math </a>
+                    <a href=""> Calculus B</a><br>
+                    <a href=""> Abstract Algebra</a><br>
+                    <a href=""> Higer Math</a>
+
+
+
+
+
+
+
+                     <div class="courses-pallete">
+        <main>
+            <!-- the row  -->
+            <div class="row">
+                <!-- first half of the courses div -->
+                <div class="firstHalf">    
+                    <!-- <a href="calculusOne.html"><img class="calc" src="2.png" alt="" width="200px" height="auto"  ></a> -->
+                    <div class="column">
+                        <a href=""><img src="1.png" alt="precalc" width="200px" height="auto" id="center"></a>
+                    </div>
+                    <div class="column">
+                        <a href="calculusOne.html"><img src="2.png" alt="calc1" width="200px" height="auto"></a>
+                    </div>
+                    <div class="column">
+                        <a href="calculusTwo.html"><img src="3.png" alt="calc2" width="200px" height="auto"></a>
+                    </div>
+                    <div class="column">
+                        <a href=""><img src="4.png" alt="calcB" width="200px" height="auto"></a>
+                    </div>
+                </div>
+
+                <!-- second half of the courses div -->
+                <div class="secondHalf">
+
+                    <div class="sec">
+                        <a href=""><img src="5.png" alt="" width="200px" height="auto"></a>
+                    </div>
+                    <div class="sec">
+                        <a href=""><img src="6.png" alt="" width="200px" height="auto"></a>
+                    </div>
+                    <div class="sec">
+                        <a href=""><img src="7.png" alt="" width="200px" height="auto"></a>
+                    </div>
+                    <div class="sec">
+                        <a href=""><img src="8.png" alt="" width="200px" height="auto"></a>
+                    </div>
+
+                </div>
+
+                <!-- third half of the courses -->
+                <div class="thirdHalf">
+
+                    <div class="third">
+                        <a href=""><img src="9.png" alt="" width="200px" height="auto"></a>
+                    </div>
+                    <div class="third">
+                        <a href=""><img src="10.png" alt="" width="200px" height="auto"></a>
+                    </div>
+                    <div class="third">
+                        <a href=""><img src="11.png" alt="" width="200px" height="auto"></a>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+ */
+
