@@ -3,9 +3,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
-/* body{
+body{
   /* background-color: rgb(231, 226, 226); */
-  /* background-color: #F3F3F3; */
+  background-color: #F3F3F3; 
+}
 
 nav a{
   color:  rgb(231, 226, 226);
