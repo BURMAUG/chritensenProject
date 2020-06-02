@@ -11,3 +11,4 @@ for(let i = 0; i < class_images.length; i++){
     class_images[i].style.height = '400px';
 }
 
+
