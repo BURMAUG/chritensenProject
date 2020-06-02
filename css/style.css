@@ -3,10 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body{
+/* body{
   /* background-color: rgb(231, 226, 226); */
-  background-color: #F3F3F3;
-}
+  /* background-color: #F3F3F3; */
 
 nav a{
   color:  rgb(231, 226, 226);
@@ -45,9 +44,7 @@ nav{
   margin: 30px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.prof-image{
-  border-radius: 20px;
-}
+
 .story{
   padding: 30px;
   float: left;
