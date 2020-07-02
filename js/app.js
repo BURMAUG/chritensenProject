@@ -31,43 +31,43 @@ imageContainerDiv.appendChild(anotherP);
 imageContainerDiv.appendChild(anotherPP);
 
 
-//enter the day of the month required and the time start and  end 
-function office_hours(day, startTime, endTime){
-    return `${day} ${startTime} - ${endTime}`;
-};
-var day = office_hours('Monday', 12, 23);
-console.log(day);
-//this function makes the semester, year and classes 
-//the semester, year and at least one class is required to use the function
-function sections_maker(semester, year, class_one, class_two, class_three, class_four, class_five) {
+// //enter the day of the month required and the time start and  end 
+// function office_hours(day, startTime, endTime){
+//     return `${day} ${startTime} - ${endTime}`;
+// };
+// var day = office_hours('Monday', 12, 23);
+// console.log(day);
+// //this function makes the semester, year and classes 
+// //the semester, year and at least one class is required to use the function
+// function sections_maker(semester, year, class_one, class_two, class_three, class_four, class_five) {
 
-    class_three = class_three || '';//optional
-    class_four = class_four || '';//optional
-    class_five = class_five || '';//optional
-    //getting the main div
-    const main = document.querySelector('.main'); 
-    //creating a div to insert other documents in.
-    const div = document.createElement('div');
-    div.className = 'classes';
-    //Create a h2 element for both semester and year
-    var header = document.createElement('h2');
-    header.innerHTML = semester + " "+ year;
-    //creating a ul for the classes tp be added
-    var ul = document.createElement('ul');    
-    ul.innerHTML = `
-                    <li><a href="#">${class_one}</a></li>
-                    <li><a href="#">${class_two}</a></li>
-                    <li><a href="#">${class_three}</a></li>`;
-    //Appending all that is needed
-    main.appendChild(div);
-    div.appendChild(header);
-    div.appendChild(ul);
+//     class_three = class_three || '';//optional
+//     class_four = class_four || '';//optional
+//     class_five = class_five || '';//optional
+//     //getting the main div
+//     const main = document.querySelector('.main'); 
+//     //creating a div to insert other documents in.
+//     const div = document.createElement('div');
+//     div.className = 'classes';
+//     //Create a h2 element for both semester and year
+//     var header = document.createElement('h2');
+//     header.innerHTML = semester + " "+ year;
+//     //creating a ul for the classes tp be added
+//     var ul = document.createElement('ul');    
+//     ul.innerHTML = `
+//                     <li><a href="#">${class_one}</a></li>
+//                     <li><a href="#">${class_two}</a></li>
+//                     <li><a href="#">${class_three}</a></li>`;
+//     //Appending all that is needed
+//     main.appendChild(div);
+//     div.appendChild(header);
+//     div.appendChild(ul);
 
-    return div;
-};
-
-
+//     return div;
+// };
 
 
 
-console.log(sections_maker('spring', 2002, 'calculus-120', 'calculus II ', 'Calculus III'))
+
+
+// console.log(sections_maker('spring', 2002, 'calculus-120', 'calculus II ', 'Calculus III'))

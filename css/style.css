@@ -25,17 +25,6 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-/* precalculus style  */
-.precalculus{
-  margin: 8vh 25vh;
-}
-h2{
-  text-align: center;
-  justify-content: center;
-}
-
-
-
 
 /* the burger area */
 .burger{
@@ -155,7 +144,30 @@ html{
 } */
 
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 700px){
-
+                                /* precalculus style  */
+.precalculus{
+  margin: 8vh 25vh;
+}
+/* both filters floated to the right */
+.selections, .semester{
+  float: right;
+}
+/* filter labels */
+.precalculus .by-year label{
+  font-weight: bold;
+}
+.precalculus .semester label{
+  font-weight: bold;
+}
+/* sections selection */
+.sections-selection label{
+  font-weight: bold;
+}
+/* this is for the sections selections */
+.sections-selection{
+  display: none;
+}
+h2{
+  font-weight: bold;
+  letter-spacing: 1px;
 }
