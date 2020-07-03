@@ -146,11 +146,12 @@ html{
 
                                 /* precalculus style  */
 .precalculus{
-  margin: 8vh 25vh;
+  margin: 5vh 25vh;
 }
 /* both filters floated to the right */
 .selections, .semester{
   float: right;
+  display: none;
 }
 /* filter labels */
 .precalculus .by-year label{
@@ -165,9 +166,12 @@ html{
 }
 /* this is for the sections selections */
 .sections-selection{
-  display: none;
+  display: block;
 }
 h2{
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: 'Open Sans', sans-serif;}
+p{
+  font-family: 'Open Sans', sans-serif;
 }

@@ -13,7 +13,26 @@ for (let i=0; i<option.length;i++){
     option[i].style.margin = '4px';
     option[i].style.borderRadius = "5px";
 }
-  
+
+//query all the precalc based on sections
+/**
+ * if sections one changed loop and check for all section ones etc
+ * if year seleccted for both sections and year accordingly
+ * 
+ */
+//getting the sections
+const sections_selections = document.querySelectorAll('input');
+for(var i = 0; i<sections_selections.length;i++){
+    //console.log(sections_selections[i]);
+
+    sections_selections[i].addEventListener('change', (event)=>{
+        event = event.target;
+        console.log(event);
+    })
+}
+
+
+
 
 //enter the day of the month required and the time start and  end 
 function office_hours(day, startTime, endTime){
@@ -29,12 +48,12 @@ function sections_maker(semester, year, class_one, class_two, class_three, class
     class_four = class_four || '';//optional
     class_five = class_five || '';//optional
     //getting the main div
-    const main = document.querySelector('.main'); 
+    const main = document.querySelector('.page'); 
     //creating a div to insert other documents in.
     const div = document.createElement('div');
     div.className = 'classes';
     //Create a h2 element for both semester and year
-    var header = document.createElement('h2');
+    var header = document.createElement('h3');
     header.innerHTML = semester + " "+ year;
     //creating a ul for the classes tp be added
     var ul = document.createElement('ul');    
@@ -49,9 +68,3 @@ function sections_maker(semester, year, class_one, class_two, class_three, class
 
     return div;
 };
-
-
-
-
-
-console.log(sections_maker('spring', 2002, 'calculus-120', 'calculus II ', 'Calculus III'))
