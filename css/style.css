@@ -129,20 +129,6 @@ html{
   color: var(--light);
 } 
 
-/* boxes */
-
-/* .boxes{
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-}
-.box{
-  background-color: ghostwhite;
-  text-align: center;
-  padding: 1.5rem 2rem;
-  box-shadow: var(--shadow);
-} */
-
 
                                 /* precalculus style  */
 .precalculus{
@@ -151,6 +137,9 @@ html{
 /* both filters floated to the right */
 .selections, .semester{
   float: right;
+  display: none;
+}
+.selections{
   display: none;
 }
 /* filter labels */
@@ -166,7 +155,7 @@ html{
 }
 /* this is for the sections selections */
 .sections-selection{
-  display: block;
+  display: none;
 }
 h2{
   font-weight: bolder;
@@ -174,4 +163,10 @@ h2{
   font-family: 'Open Sans', sans-serif;}
 p{
   font-family: 'Open Sans', sans-serif;
+}
+
+.boxes{
+  display: grid;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
