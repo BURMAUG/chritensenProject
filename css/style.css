@@ -134,18 +134,26 @@ html{
 .precalculus{
   margin: 5vh 25vh;
 }
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
 /* both filters floated to the right */
 .years{
-  display: none;
+  display: block;
+}
+.semester{
+  display: block;
 }
 /* filter labels */
 
 /* sections selection */
 
 /* this is for the sections selections */
-.sections-selection{
-  display: none;
-}
+
 h2{
   font-weight: bolder;
   letter-spacing: 2px;
@@ -154,8 +162,3 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
-.boxes{
-  display: grid;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
