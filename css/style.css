@@ -135,24 +135,13 @@ html{
   margin: 5vh 25vh;
 }
 /* both filters floated to the right */
-.selections, .semester{
-  float: right;
-  display: none;
-}
-.selections{
+.years{
   display: none;
 }
 /* filter labels */
-.precalculus .by-year label{
-  font-weight: bold;
-}
-.precalculus .semester label{
-  font-weight: bold;
-}
+
 /* sections selection */
-.sections-selection label{
-  font-weight: bold;
-}
+
 /* this is for the sections selections */
 .sections-selection{
   display: none;
