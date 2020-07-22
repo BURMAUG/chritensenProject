@@ -131,6 +131,10 @@ html{
 
 
                                 /* precalculus style  */
+.cf h2{
+  text-align: center;
+  margin: 5vh;
+}
 .precalculus{
   margin: 5vh 25vh;
 }
@@ -151,7 +155,14 @@ html{
 /* filter labels */
 
 /* sections selection */
-
+select{
+  border-radius: 6px;
+  border: medium #7c5671 solid;
+  /* height: 3vh; */
+}
+input[type="checkbox"]{
+  margin-top: 5px;
+}
 /* this is for the sections selections */
 
 h2{
